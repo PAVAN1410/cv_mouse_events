@@ -10,7 +10,7 @@ def click_event(event,x,y,flag,param):
         img1[:]=[blue,green,red]
         cv2.imshow('imagei',img1)
 
-img=cv2.imread(r'C:\Users\nanin\Desktop\CV\opencv\opencv-master\samples\data\apple.jpg')
+img=cv2.imread(r'C:\Users\apple.jpg')
 #img=np.zeros((512,512,3),np.uint8)
 cv2.imshow('image',img)
 cv2.setMouseCallback('image',click_event)
